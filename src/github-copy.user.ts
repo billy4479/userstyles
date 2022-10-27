@@ -18,7 +18,9 @@
   button.innerText = 'Copy';
   button.className = classes;
   button.onclick = async () => {
-    const res = await fetch(document.getElementById('raw-url').href);
+    const res = await fetch(
+      (document.getElementById('raw-url') as HTMLAnchorElement).href
+    );
     const text = await res.text();
     // console.log(text);
     await navigator.clipboard.writeText(text);
