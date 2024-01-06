@@ -1,0 +1,29 @@
+/* ==UserStyle==
+@name           Clean Up Stack Exchange
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    Just get me the answer
+@author         billy4479
+==/UserStyle== */
+
+@-moz-document domain("stackoverflow.com"),
+domain("serverfault.com"),
+domain("superuser.com"),
+domain("askubuntu.com"),
+domain("stackexchange.com") {
+  .s-post-summary__ignored,
+  .s-sidebarwidget__yellow,
+  .js-sidebar-zone,
+  #hireme,
+  #hot-network-questions,
+  #newsletter-ad,
+  .js-consent-banner,
+  #sidebar,
+  #left-sidebar {
+    display: none;
+  }
+
+  #mainbar {
+    width: 100% !important;
+  }
+}
