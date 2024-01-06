@@ -1,0 +1,32 @@
+/* ==UserStyle==
+@name           Wide XDA
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@updateURL      https://raw.githubusercontent.com/billy4479/userstyles/master/styles/wide-xda.user.css
+@author         billy4479
+==/UserStyle== */
+
+@-moz-document url-prefix("https://xdaforums.com/t")
+{
+  .uix_sidebarNav {
+    display: none;
+  }
+  .p-body-sidebar {
+    display: none;
+  }
+  .p-body-inner {
+    left: unset !important;
+    max-width: unset !important;
+    width: unset !important;
+    padding: 3em !important;
+  }
+
+  .p-body-content {
+    width: unset !important;
+    max-width: unset !important;
+  }
+
+  * {
+    animation: unset !important;
+  }
+}
