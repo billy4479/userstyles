@@ -1,21 +1,12 @@
 {
-	"scripts": {
-		"serve": "http-server dist -c5",
-		"compile": "tsc",
-		"watch": "tsc --watch"
-	},
-	"devDependencies": {
-		"eslint": "^8.26.0",
-		"eslint-config-airbnb-base": "^15.0.0",
-		"eslint-config-prettier": "^8.5.0",
-		"eslint-plugin-import": "^2.26.0",
-		"eslint-plugin-prettier": "^4.2.1",
-		"http-server": "^14.1.1",
-		"prettier": "^2.7.1",
-		"@types/greasemonkey": "^4.0.4",
-		"@typescript-eslint/eslint-plugin": "^5.41.0",
-		"@typescript-eslint/parser": "^5.41.0",
-		"eslint-config-airbnb-typescript": "^17.0.0",
-		"typescript": "^4.8.4"
-	}
+  "name": "userstyles",
+  "version": "1.0.0",
+  "description": "Some styles to be used with Stylus",
+  "scripts": {},
+  "keywords": [],
+  "author": "billy4479",
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "^3.1.1"
+  }
 }
